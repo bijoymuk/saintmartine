@@ -1,0 +1,325 @@
+/*****************
+global css section 
+*****************/
+* {
+	margin: 0;
+	padding: 0;
+}
+@media (min-width: 1200px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px !important;
+}
+.header{
+	width: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+/*****************
+top header css section 
+*****************/
+
+.top-header{
+	background-color: #EAEFFF;
+}
+.top-header .left span{
+	color: #fe5c24;
+	font-size: 14px;
+	margin-right: 16px;
+
+}
+
+.top-header .left a{
+	font-size: 14px;
+	margin: 0 15px;
+	color:#0a58ca ;
+}
+.top-header .right span{
+	color: #0a58ca;
+	font-size: 14px;
+	margin-left: 16px;
+
+}
+.top-header .right span i{
+	color:#fe5c24 ;
+	margin-right: 6px;
+}
+.top-header .right ul li a i{
+	font-size: 14px;
+	color:#0a58ca ;
+	margin: 0 12px;
+}
+.custom-button{
+	background-color: orange;
+	padding:16px 32px ;
+	border: none;
+	color: white;
+	font-size: 16px;
+
+}
+.custom-button:hover{
+	background: #0a58ca;
+}
+.nav-link{
+	color: #0a58ca !important;
+}
+.nav-item{
+	margin: 0 18px;
+}
+.nav-link:hover{
+color:orange !important;
+}
+
+/*****************
+Banner css section 
+*****************/
+#banner{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/banner_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.b-content{
+	    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.b-content h1{
+	font-size: 120px;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+.b-content p{
+	    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.banner-btn{
+	    padding: 23px 79px;
+    border: none;
+    background-color: #2493e0;
+}
+.banner-btn:hover{
+	background-color:orange ;
+}
+/*****************
+Search css section 
+*****************/
+.search-wrapper{
+	background-color: white;
+
+}
+
+.trigger-item{
+	margin-top: -72px;
+
+}
+
+.s-box ul li{
+	padding: 28.5px 20px;
+	position: relative;
+}
+.line{
+	height: 2px;
+	width: 100%;
+background-color:#2493e0;
+position: absolute;
+bottom: 0;
+left:0;
+}
+.s-form form select{
+
+	padding: 16px 24px;
+	margin-right: 24px;
+	width: 206px;
+
+
+}
+/*****************
+place  css section 
+*****************/
+
+#place
+s{
+	width: 100%;
+	padding: 100px 0px;
+}
+.section-title{
+margin-bottom: 32px;
+text-align: center;
+}
+.section-title h2{
+	color:#0c3e72 ;
+	font-size:46px ;
+	text-transform: capitalize;
+	line-height: 1.1;
+
+	position: relative;
+
+}
+
+.section-title p{
+	    color: #777;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 16px;
+}
+/*************************
+place gather css section 
+**************************/
+
+.p-item{
+	position: relative;
+
+}
+
+.p-item::before{
+	content:'';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #0c3e72;
+	opacity: 0;
+	transition: 0.5s;
+}
+.p-item:hover::before{
+opacity: 0.75;
+transition: 0.5s;
+}
+
+.p-item-text a{
+	display: inline-block;
+	padding: 10px 25px;
+	color: #fff;
+	background-color: #fe5c24;
+	text-transform: capitalize;
+	margin-bottom: 14px;
+
+}
+.p-item-text h3{
+        font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.p-item-text p{
+
+    color: #a2a2a2;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.p-item-text span{
+	color: #fff;
+
+}
+.p-item-text span i{
+ color:#fe5c24 ;
+}
+.p-item-text{
+	position: absolute;
+	bottom: 40px;
+	left: 40px ;
+	opacity: 0;
+transition: 2.5s;
+
+}
+.p-item:hover .p-item-text{
+	opacity: 1;
+	transform: translateY(-10px);
+	transition: 2.5s;
+}
+.btn-2 button{
+		background-color: orange;
+	padding: 15px 48px;;
+	border: none;
+	color: white;
+	font-size: 16px;
+
+}
+.btn-2{
+	text-align: center;
+	    margin: 50px 0px;
+}
+.btn-2 button:hover{
+	background: #0a58ca;
+}
+/*********************************
+Slider  section css section 
+**********************************/
+
+
+#event-slider{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/event_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.custom-button3{
+	background-color: orange;
+	padding:16px 32px ;
+	border: none;
+	color: white !important;
+	font-size: 16px;
+}
+.custom-button2 button::hover{
+	background-color: #0a58ca !important;
+}
+
+/*********************************
+Event Slider  section css section 
+**********************************/
+
+
+.slider-box{
+	
+	background-color: #fff;
+	    padding: 60px;
+    margin: 40px 0;
+
+}
+
+.slider-box h6{
+	    color: #fe5c24;
+    margin-bottom: 18px;
+
+}
+.slider-box h3{
+     font-weight: 700;
+    margin-bottom: 25px;
+    color: #0c3e72;
+}
+.slider-box p{
+
+    margin-bottom: 15px;
+    color: #848484;
+}
+.slider-box span{
+
+    color: #0c3e72;
+}
+
+.slider-box p i{
+ color:#fe5c24 ;
+ margin-bottom: 10px;
+}

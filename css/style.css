@@ -458,3 +458,250 @@ populer hotel  section css section
 
 }
 
+
+/*********************************
+ Review  section css section 
+**********************************/
+
+
+#testimonial {
+	background-color: #0c3e72;
+	width: 100%;
+	padding:120px 0 ;
+}
+
+
+.row h1{
+	color: #fff;
+    
+    font-size: 42px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.place-review i{
+	color: #fe5c24;
+	}
+.t-card{
+
+    background-color: #0e477d;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.t-card p{
+	color: #fff;
+}
+
+#testimonial .owl-dots{
+	display: none;
+}
+#testimonial .owl-prev{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 32px;
+    background-color: #2493e0 !important;
+    color: #fff !important;
+    margin-right: 10px;
+    position: absolute;
+    right: 67px;
+    top: -100px;
+    border: none;
+    border-radius: 0;
+
+}
+#testimonial .owl-next{
+      width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 32px;
+    background-color: #2493e0 !important;
+    color: #fff !important;
+    position: absolute;
+    right: 8px;
+    top: -100px;
+    border: none;
+    border-radius: 0;
+
+    }
+
+    .t-tittle{
+	  font-size: 46px;
+	  color: white;
+	  font-weight: 600;
+	  position: relative;
+	  margin-bottom: 42px;
+
+}
+
+/***********Service section css*************/
+#service{
+	width: 100%;
+	padding: 120px 0px;
+}
+.s-item{
+	margin-top: 18px;
+}
+.s-item h3 a{
+	font-size: 24px;
+	color: #0c3e72;
+	font-weight: 400;
+	margin-top: 30px;
+}
+.s-item p{
+	color: #a2a2a2;
+	line-height: 28px;
+	font-size: 16px;
+	font-weight: 400;
+}
+/***********Subscribe section css*************/
+.subscribe-area{
+	width: 100%;
+	padding: 120px 0px;
+	background-color: #162b45;
+}
+.discover h4{
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.discover ul{
+	
+}
+.discover ul li a{
+	  color: #fff;
+	  transition: .5s;
+	  font-size: 15px;
+	  text-decoration: none;
+	  margin-bottom: 8px;
+		display: inline-block;
+	  transition: 0.5s;
+}
+.discover ul li a:hover{
+	color: #fe5c24;
+	transition: 0.5s;
+	margin-left: 10px;
+}
+.discover ul{
+	
+	list-style: none;
+	column-width: auto;
+	column-count: 2;
+	margin-left: -30px;
+  margin-right: -24px;
+}
+.subscribe h4{
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.subscribe form input{
+	height: 50px;
+	border: none;
+	width: 67% !important;
+	font-weight: 400;
+	padding-left: 20px;
+	font-size: 13px;
+	color: #999;
+	background-color: #092742;
+}
+.s-btn{
+	background-color: #fe5c24;
+  color: #fff;
+  height: 50px;
+  padding: 8px 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: -3px;
+
+}
+.s-btn:hover .s-submit p{
+	opacity: 1;
+}
+.s-submit p{
+	font-size: 14px;
+	font-weight: 400;
+  margin-top: 4px;
+	color: #212529;
+	text-align: left;
+	opacity: 0;
+}
+
+.subscribe p{
+	color: #fff;
+	font-size: 16px;
+  margin-top: 16px;
+  font-weight: 400;
+}
+.subscribe form input:hover,.subscribe form input:focus{
+	border: none;
+	outline: none !important;
+}
+.s-contact h4{
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.s-contact p{
+	color: #fff;
+	font-size: 16px;
+  margin-top: 54px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+.email span{
+	color: #fe5c24;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+
+}
+.s-contact div a i{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #fff;
+	margin-top: 30px;
+	margin-right: 16px;
+	transition: 0.5s;
+}
+.s-contact div a i:hover{
+	color: #fe5c24;
+	transition: 0.5s;
+}
+/***********Footer section css*************/
+footer{
+	width: 100%;
+	background-color: #08223a;
+}
+
+.footer-end{
+	  padding: 32px 0;
+	  font-size: 14px;
+	  text-align: center!important;
+	  color: #fff;
+	  
+}
+.footer-end p{
+	line-height: 28px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #777;
+}
+.footer-end p a{
+	color: #fe5c24;
+}
+
